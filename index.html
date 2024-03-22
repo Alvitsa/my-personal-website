@@ -4,8 +4,88 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MY Personal Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <h1> Hello World!</h1>
+    <main>
+        <header>
+            <nav>
+                <div class="container">
+                    <div class="logo">
+                        <img src="" alt="">
+                    </div>
+                    <div class="link">
+                        <ul>
+                            <li>
+                                <a href="#">Home</a>
+                            </li>
+                            <li> 
+                                <a href="#">Services</a>
+                            </li>
+                            <li>
+                                <a href="#">Portfolio</a>
+                            </li>
+                            <li>
+                                <a href="#">About</a>
+                            </li>
+                            <li>
+                                <a href="#">Testimonials</a>
+                            </li>
+                            <li>
+                                <a href="#">Contact</a>
+                            </li>
+                            <li>
+                                <a href="#" class="active">Hire me</a>
+                            </li>
+                              
+                        
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <!-- Dark Mode Toggle Button -->
+            <div class="dark-mode-toggle">
+                <label class="switch">
+                    <input type="checkbox" id="darkModeToggle">
+                    <span class="slider round"></span>
+                </label>
+                <span class="toggle-label">Dark Mode</span>
+            </div>
+        </header>
+        <!-- Flex Cards Section -->
+        <section class="flex-cards">
+            <div class="flex-card">
+                <h2>Home</h2>
+                <p>Welcome to my portfolio website</p>
+            </div>
+            <div class="flex-card">
+                <h2>Portfolio</h2>
+                <p>Check out my programming projects</p>
+            </div>
+            <div class="flex-card">
+                <h2>Services</h2>
+                <p>Discover the programming services I offer</p>
+            </div>
+            <div class="flex-card">
+                <h2>About</h2>
+                <p>Learn more about me as a programmer</p>
+            </div>
+            <div class="flex-card">
+                <h2>Testimonials</h2>
+                <p>See what others have to say about my work</p>
+            </div>
+            <div class="flex-card">
+                <h2>Contact</h2>
+                <p>Get in Touch</p>
+            </div>
+            
+        </section>
+        <!--Hire me button-->
+         <div class="hire-me-button-container">
+            <a href="#"class="hire-me-button">Hire me</a>
+         </div>
+    </main>
+    <script src="script.js"></script>
 </body>
 </html>
